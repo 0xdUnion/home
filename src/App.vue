@@ -17,18 +17,18 @@ import { RouterLink, RouterView } from 'vue-router'
     <RouterView />
   </main>
   <footer class="center-align margin">
-    <p>Copyleft <i class="mdi mdi-copyleft small"></i> Forever dUnion</p>
+    <p>Copyleft <i class="fa-regular fa-copyright fa-flip-horizontal small"></i> Forever dUnion</p>
     <p>This website does not constitute any investment advice. Always do your own research.</p>
     <p>
       <a href="https://github.com/0xdUnion" target="_blank">
-        <i class="mdi mdi-github large"></i>
+        <i class="fa-brands fa-github"></i>
       </a>
       <a href="https://x.com/0xdUnion" target="_blank">
-        <i class="mdi mdi-twitter large"></i>
+        <i class="fa-brands fa-x-twitter"></i>
       </a>
       |
-      <RouterLink to="/connect"><i class="mdi mdi-wallet large"></i></RouterLink>
-      <RouterLink to="/links"><i class="mdi mdi-earth large"></i></RouterLink>
+      <RouterLink to="/connect"><i class="fa fa-wallet"></i></RouterLink>
+      <RouterLink to="/links"><i class="fa fa-link"></i></RouterLink>
     </p>
   </footer>
 </template>
@@ -41,22 +41,22 @@ export default {
         {
           title: 'Home',
           to: '/',
-          icon: 'mdi mdi-home',
+          icon: 'fa fa-house',
         },
         {
           title: 'Values',
           to: '/values',
-          icon: 'mdi mdi-message-badge',
+          icon: 'fa fa-message',
         },
         {
           title: 'Departments',
           to: '/departments',
-          icon: 'mdi mdi-cube',
+          icon: 'fa fa-gear',
         },
         {
           title: 'On-chain',
           to: '/on-chain',
-          icon: 'mdi mdi-ethereum',
+          icon: 'fa-brands fa-ethereum',
         },
       ],
     }

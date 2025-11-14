@@ -7,7 +7,7 @@
       <img class="responsive medium" :src="item.banner">
       <div class="absolute bottom left right padding bottom-shadow white-text">
         <nav>
-          <h4><i :class="'mdi '+item.icon"></i> {{ item.name }}</h4>
+          <h4><i :class="item.icon"></i> {{ item.name }}</h4>
           <div class="max"></div>
         </nav>
       </div>
@@ -22,21 +22,21 @@ export default {
     return {
       items: [
         {
-          name: 'Trading Club',
-          describe: 'Gain market insights, analyze sentiment',
-          icon: 'mdi-bitcoin',
-          banner: '/images/banner/banner_tradingclub.png'
-        },
-        {
           name: 'BC Dev',
           describe: 'Write the fastest smart contracts with minimal gas!',
-          icon: 'mdi-code-tags',
+          icon: 'fa fa-code',
           banner: '/images/banner/banner_bcdev.png'
+        },
+        {
+          name: 'Trading Club',
+          describe: 'Gain market insights, analyze sentiment',
+          icon: 'fa-solid fa-bitcoin-sign',
+          banner: '/images/banner/banner_tradingclub.png'
         },
         {
           name: 'Project Backup',
           describe: 'Save before disappear',
-          icon: 'mdi-archive',
+          icon: 'fa-solid fa-floppy-disk',
           banner: '/images/banner/banner_pb.png'
         },
 

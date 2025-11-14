@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router.js'
-import "@mdi/font/css/materialdesignicons.min.css"
+import "@fortawesome/fontawesome-free/css/all.css"
 import "beercss";
 import "./css/style.css"
 

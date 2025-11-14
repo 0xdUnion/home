@@ -9,15 +9,15 @@ import {RouterLink} from "vue-router";
     <h1>dUnion</h1>
     <p>Decentralize(d) Union</p>
     <div>
-      <a href="https://github.com/dUnionNet" target="_blank">
+      <a href="https://github.com/0xdUnion" target="_blank">
         <button class="large">
-          <i class="mdi mdi-arrow-top-left"></i>
+          <i class="fa-brands fa-github"></i>
           Projects
         </button>
       </a>
       <RouterLink to="/join">
         <button class="border large">
-          <i class="mdi mdi-plus"></i>
+          <i class="fa fa-plus"></i>
           Join now
         </button>
       </RouterLink>
