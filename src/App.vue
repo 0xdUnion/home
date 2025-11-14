@@ -20,12 +20,12 @@ import { RouterLink, RouterView } from 'vue-router'
     <p>Copyleft <i class="mdi mdi-copyleft small"></i> Forever dUnion</p>
     <p>This website does not constitute any investment advice. Always do your own research.</p>
     <p>
-      <a href="https://github.com/dUnionNet" target="_blank"
-        ><i class="mdi mdi-github large"></i
-      ></a>
-      <a href="https://x.com/0xdUnion" target="_blank"
-      ><i class="mdi mdi-twitter large"></i
-      ></a>
+      <a href="https://github.com/0xdUnion" target="_blank">
+        <i class="mdi mdi-github large"></i>
+      </a>
+      <a href="https://x.com/0xdUnion" target="_blank">
+        <i class="mdi mdi-twitter large"></i>
+      </a>
       |
       <RouterLink to="/connect"><i class="mdi mdi-wallet large"></i></RouterLink>
       <RouterLink to="/links"><i class="mdi mdi-earth large"></i></RouterLink>
