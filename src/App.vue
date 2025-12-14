@@ -17,7 +17,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <RouterView />
   </main>
   <footer class="center-align margin">
-    <p>Copyleft <i class="fa-regular fa-copyright fa-flip-horizontal small"></i> Forever dUnion</p>
+    <p>Copyleft 🄯 Forever dUnion</p>
     <p>This website does not constitute any investment advice. Always do your own research.</p>
     <p>
       <a href="https://github.com/0xdUnion" target="_blank">
@@ -27,6 +27,9 @@ import { RouterLink, RouterView } from 'vue-router'
         <i class="fa-brands fa-x-twitter"></i>
       </a>
       |
+      <a href="https://n2p.dunion.net" target="_blank">
+        <i class="fa fa-file"></i>
+      </a>
       <RouterLink to="/connect"><i class="fa fa-wallet"></i></RouterLink>
       <RouterLink to="/links"><i class="fa fa-link"></i></RouterLink>
     </p>
